@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method>
   <h2>Feedback Form</h2>
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required minlength="3" maxlength="50">
@@ -16,13 +16,8 @@
   <label for="portfolio">Portfolio:</label>
   <input type="url" id="portfolio" name="portfolio" required>
   <br><br>
-  <label for="favColor">Favourite Color:</label>
-  <select id="favColor" name="favColor">
-    <option value="red">Red</option>
-    <option value="blue">Blue</option>
-    <option value="green">Green</option>
-    <option value="yellow">Yellow</option>
-  </select>
+  <label  for="favColor">Favourite Color:</label>
+  <input id="favColor" type="color">		
   <br><br>
   <label for="likeness">How much do you like your color:</label>
   <input type="range" id="likeness" name="likeness" min="1" max="100">
